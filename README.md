@@ -89,8 +89,8 @@ pip install -r requirements.txt
 python app.py
 
 
-Access the app at http://localhost:5000.
+**Access the app at** http://localhost:5000.
 
-Demo Video
+**Demo Video**
 
 https://drive.google.com/file/d/16IEnGQjsn3z1htdVo_mrGvuakkWnG83g/view
