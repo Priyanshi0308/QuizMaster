@@ -6,6 +6,7 @@ QuizMaster is a Flask-based web application designed to manage quizzes, track st
 This project showcases skills in backend development, database design, API creation, caching, and automated analytics workflows, making it relevant for data science and analytics applications.
 
 **Key Features**
+
 **Admin Features:**
 Create, edit, and manage subjects, chapters, and quizzes
 Monitor user activity and performance metrics
