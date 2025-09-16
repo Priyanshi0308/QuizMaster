@@ -1,17 +1,18 @@
-Project Overview
+**Project Overview**
 
 QuizMaster is a Flask-based web application designed to manage quizzes, track student performance, and generate automated reports. It combines secure user authentication, efficient data handling, and task automation, providing a smooth, data-driven quiz experience.
 
 This project showcases skills in backend development, database design, API creation, caching, and automated analytics workflows, making it relevant for data science and analytics applications.
 
-Key Features
-Admin Features:
+**Key Features**
+
+**Admin Features:**
 
 Create, edit, and manage subjects, chapters, and quizzes
 
 Monitor user activity and performance metrics
 
-User Features:
+**User Features:**
 
 Register, log in, and attempt quizzes
 
@@ -19,7 +20,7 @@ Track historical scores and performance trends
 
 Receive automated reminders for upcoming quizzes
 
-Data & Analytics Features:
+**Data & Analytics Features:**
 
 Stores quiz attempts and scores for analysis
 
@@ -53,7 +54,7 @@ Quiz & Question – quiz content
 
 Score – stores user quiz performance
 
-Selected API Endpoints
+**Selected API Endpoints**
 
 POST /login – user/admin authentication
 
@@ -71,13 +72,20 @@ POST /quizzes/<id>/attempt – submit quiz responses
 
 GET /scores – retrieve quiz scores
 
-Setup & Installation
+**Setup & Installation**
+
 git clone <repo-url>
+
 cd QuizMaster
+
 python -m venv venv
+
 source venv/bin/activate  # Linux/macOS
+
 venv\Scripts\activate     # Windows
+
 pip install -r requirements.txt
+
 python app.py
 
 
